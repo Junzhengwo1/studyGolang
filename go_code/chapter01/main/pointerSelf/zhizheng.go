@@ -18,4 +18,9 @@ func main() {
 	inr = 100
 	fmt.Printf("ptr指向的值=%v", *ptr)
 
+	var p *int
+	p = new(int)
+
+	*p = 10
+
 }
