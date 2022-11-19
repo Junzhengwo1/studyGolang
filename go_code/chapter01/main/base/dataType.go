@@ -104,14 +104,6 @@ func main() {
 	float, _ := strconv.ParseFloat(s, 64)
 	fmt.Printf("type is %T \n", float)
 
-	//指针
-	var inr = 520
-	var ptr *int = &inr
-	fmt.Println("int的地址：", &inr)
-	fmt.Println("int的地址：", ptr)
-	//取出指针的值
-	fmt.Printf("ptr指向的值=%v", *ptr)
-
 	var userName string = "king"
 	fmt.Println(userName)
 
