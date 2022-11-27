@@ -5,9 +5,9 @@ import "fmt"
 // 结构体 定义在方法外面可以全局使用
 
 type Student struct {
-	id   int
-	name string
-	age  int
+	Id   int
+	Name string
+	Age  int
 }
 
 func main() {
