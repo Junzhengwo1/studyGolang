@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go/src/studyGolang/go_code/chapter02/fiebo"
+	"studyGolang/go_code/chapter02/fiebo"
 )
 
 func main() {
